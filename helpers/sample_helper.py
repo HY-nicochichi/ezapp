@@ -1,4 +1,4 @@
-from ezapp.models import SampleModel
+from models import SampleModel
 
 class SampleHelper():
     

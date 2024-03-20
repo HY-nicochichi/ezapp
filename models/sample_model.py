@@ -1,4 +1,4 @@
-from ezapp.extension import ext
+from extension import ext
 
 class SampleModel(ext.db_orm.Model):
 

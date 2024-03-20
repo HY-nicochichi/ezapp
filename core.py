@@ -1,6 +1,6 @@
 from flask_ezapp import EZapp
-from .controllers import routers
-from .extension import ext
+from controllers import routers
+from extension import ext
 
 app = EZapp()
 

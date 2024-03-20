@@ -1,5 +1,5 @@
 from datetime import timedelta
-from .extension import ext_dict
+from extension import ext_dict
 
 if ext_dict['db_orm'] == True:
     SQLALCHEMY_DATABASE_URI = 'sqlite:///sampledb.sqlite3'

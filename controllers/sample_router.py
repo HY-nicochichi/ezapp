@@ -1,6 +1,6 @@
 from flask_ezapp.controller import Router
 from flask_ezapp import glo
-from ezapp.helpers import SampleHelper
+from helpers import SampleHelper
 
 sample_router = Router('sample', __name__)
 
